@@ -56,10 +56,7 @@ body{
      margin: 0 auto;
      gap: 1.8rem;
      grid-template-columns: 14rem auto 21rem;
-     /*grid-template-areas:
-       "nav grafico update"
-       "nav table update"
-       "nav table sales"; */   
+
  }
 
 a{
@@ -148,8 +145,6 @@ aside .close{
     display: none;
 }
 
-/* minha tentativa e vou acertar*/
-
 aside .sidebar{
     display: flex;
     flex-direction: column;
@@ -235,42 +230,6 @@ main .date input[type='date']{
     background-color: transparent;
     color: var(--color-dark);
 }
-/* minha tentativa PQ QUE DEU ERRADO KAKAKA
-main .insights{
-    width: ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.123);
-    /*padding: 15px 25px;
-}
-
-main .sales{
-    width: 100%;
-    background: white;
-    margin-right: 10px;
-    
-    /*margin-right: 10px;
-    border-radius: 5%;
-}
-
-main .sales .middle{
-    width: 100%;
-    flex: 1;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-main .expenses{
-    background-color: white;
-    margin-right: 10px;
-}
-
-main .income{
-    background-color: white;
-} */
 
 main .insights{
     display: grid;
@@ -367,7 +326,7 @@ main .insights small{
     display: block;
     
 }
-/***********************************Recents order*//**************************/
+/**************************Recents Orders**************************/
 
 main .recent-orders{
     margin-top: 2rem;
@@ -459,7 +418,7 @@ main table tbody tr td:last-child{
     text-align: right;
  }
 
- /*updates*/
+ /**********************UPDATES STYLES***********************/
 
  .right .recents-updates{
     margin-top: 1rem;
@@ -488,7 +447,7 @@ main table tbody tr td:last-child{
     margin-bottom: 1rem;
  }
 
-                /*SALES ANALYTIC*/
+/************************SALES ANALYTIC STYLES***********************/
 
 .right .sales-analytics{
     margin-top: 2rem;
@@ -498,7 +457,7 @@ main table tbody tr td:last-child{
 .right .sales-analytics h2{
     margin-bottom: 0.8rem;
 }
-/* po wtf ele só usou display flex no item e dentro do bglh do item que dificuldade foi essa?kkakakakak sei que tu quis usar fora mas pra por column nem precisa crlh*/
+
 .right .sales-analytics .item{
     background-color: var(--color-white);
     display: flex;
@@ -557,7 +516,7 @@ main table tbody tr td:last-child{
     gap: 0.6rem;
 }
 
-/* media queries */
+/* media tablet */
 
 @media (max-width: 1200px){
     .container{
@@ -608,7 +567,7 @@ main table tbody tr td:last-child{
     }
 }
 
-/* MEDIA CELULAR */
+/* media celular */
 
 @media (max-width:768px){
 

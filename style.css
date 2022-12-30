@@ -298,6 +298,9 @@ main .insights svg circle{
 main .insights .sales svg circle{
     stroke-dashoffset: -30;
     stroke-dasharray: 200;
+    -webkit-stroke-dashoffset: -30;
+    -webkit-stroke-dasharray: 200;
+
 }
 
 main .insights .expenses svg circle{
@@ -308,6 +311,7 @@ main .insights .expenses svg circle{
 main .insights .income svg circle{
     stroke-dashoffset: 35;
     stroke-dasharray: 110;
+    
 }
 
 main .insights .progress .number{

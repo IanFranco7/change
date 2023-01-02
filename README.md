@@ -3,6 +3,8 @@
 
 # Sobre o projeto
 
+Link para acessar: https://ianfranco7.github.io/change/
+
 Change é um dashboard que mostra a perspectiva de um administrador. Sendo totalmente responsivo, se adaptando a qualquer tamanho de tela, além de  possuir outras funcionalidades.
 
 ## Layout Desktop

@@ -154,23 +154,7 @@
                                 
                             </tbody>-->
                         </table>
-                        <a class="add-order" href=""><span>Add Order</span></a>
-                    <!--<div class="modal">
-                            <div class="modal-content">
-                                <header>
-                                    <h2>New Order</h2>
-                                </header>
-                                <form>
-                                    <input type="text" class="modal-field" placeholder="Product Name">
-                                    <input type="text" class="modal-field" placeholder="Product Number">
-                                </form>
-                                <footer class="modal-footer">
-                                    <button>Add</button>
-                                    <button>Cancel</button>
-
-                                </footer>
-                            </div>
-                        </div>-->
+                        <button type="button" class="add-order" href=""><span>Add Order</span></button>
                     </div>
         </main>
                     <!------------------- RIGHT SECTION-------------------->
@@ -274,6 +258,25 @@
                     <h3>Add Products</h3>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <header>
+                <h2>New Order</h2>
+                <div id="close-order">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+            </header>
+            <form>
+                <input type="text" class="modal-field" placeholder="Product Name">
+                <input type="text" class="modal-field" placeholder="Product Number">
+            </form>
+            <footer class="modal-footer">
+                <button id="add">Add</button>
+                <button id="cancel">Cancel</button>
+
+            </footer>
         </div>
     </div>
     <script src="order.js"></script>
